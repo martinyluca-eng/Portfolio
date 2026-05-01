@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luca — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">Luca.dev</div>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Bonjour, je suis <span class="accent">Luca</span></h1>
+    <p>Développeur Python passionné par l'automatisation.</p>
+    <a href="#projets" class="btn">Voir mes projets</a>
+  </section>
+  
+  <section class="about" id="about">
+    <h2>A propos</h2>
+    <p>Diplômé d'un BTS SIO, j'ai d'abord exercé dans le dépannage informatique avant de me reconvertir vers la programmation, qui m'avait passionné durant mes études.
+Je souhaite continuer à découvrir les possibilités des langages de programmation. Actuellement, je me forme en autonomie sur Python, avec un focus sur l'automatisation et des outils pratiques ; j’apprends en construisant des projets concrets.
+Aujourd'hui, je cherche une opportunité pour mettre mes compétences en pratique au sein d'une équipe et continuer à progresser.</p>
+ </section>
+
+ <!-- PROJETS -->
+ <section class="projets" id="projets">
+  <h2>Mes Projets</h2>
+
+  <div class="projet-card">
+    <div class="projet-info">
+      <h3>Amazon Price Tracker</h3>
+      <p>Application Windows qui surveille automatiquement les prix de produits Amazon et envoie une alerte email dès que le prix cible est atteint</p>
+      <div class="projet-tags">
+        <span class="tag">Python</span>
+        <span class="tag">BeautifulSoup</span>
+        <span class="tag">CustomTKinter</span>
+        <span class="tag">Automatisation</span>
+      </div>
+      <ul class="projet-features">
+        <li>Surveillance multi-produits</li>
+        <li>Alertes email automatique</li>
+        <li>Interface graphique Windows</li>
+        <li>Historique CSV</li>
+      </ul>
+    </div>
+  </div>
+
+<!-- COMPETENCES -->
+<section class="competences" id="competences">
+  <h2>Mes Compétences</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill">
+      <p>Python</p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 25%"></div>
+      </div>
+    </div>                    
+    <div class="skill">
+      <p>HTML / CSS</p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 30%"></div>
+      </div>
+    </div>  
+        <div class="skill">
+      <p>SQL</p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 20%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>Web Scraping</p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 25%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <p>Automatisation</p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 25%"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--CONTACT-->  
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <h3>Je vous invites à me contacter à l'aide de l'adress Email pour plus d'informations</h3>
+  <span style="color: white;">✉</span>
+<a href="mailto:Martinyluca@gmail.com">Martinyluca@gmail.com</a>
+</section> 
+
+<!--FOOTER-->
+<footer>
+  <p>© 2026 Luca — Développeur Python</p>
+</footer>
+
+<!--ANIMATIONS-->
+<script>
+  const elements = document.querySelectorAll('.reveal');
+
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  elements.forEach(function(el) {
+    observer.observe(el);
+  });
+</script>
+</body>

@@ -1,5 +1,5 @@
 body {
-  background-color: #0a0a0f;
+  background-color: #1a0e15;
   color: white;
   font-family: 'DM Mono', monospace;
   margin: 0;
@@ -22,11 +22,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 4rem;
-  background-color: #0a0a0f;
+  background-color: #1a0e15;
 }
 
 .nav-logo {
-  color: #a855f7;
+  color: #5C0A28;
   font-size: 1.3rem;
   font-weight: bold;
 }
@@ -70,7 +70,7 @@ nav {
 }
 
 .accent {
-  background: linear-gradient(135deg, #a855f7, #ec4899);
+  background: linear-gradient(135deg, #5C0A28, #ec4899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -85,7 +85,7 @@ nav {
 .btn {
   display: inline-block;
   padding: 0.9rem 2rem;
-  background-color: #a855f7;
+  background-color: #5C0A28;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -100,12 +100,12 @@ nav {
 /* ABOUT */
 .about {
   padding: 5rem 4rem;
-  background-color: #13131a;
+  background-color: #241420;
   text-align: center;
 }
 
 .about h2 {
-  color: #a855f7;
+  color: #5C0A28;
   font-size: 2rem;
   margin-bottom: 1.5rem;
   font-family: 'Syne', sans-serif;
@@ -123,13 +123,13 @@ nav {
 
 /* PROJETS */
 .projets {
-  background-color: #0a0a0f;
+  background-color: #1a0e15;
   padding: 5rem 4rem;
   text-align: center;
 }
 
 .projets h2 {
-  color:#a855f7;
+  color:#5C0A28;
   font-size: 2rem;
   text-align: center;
   font-family: 'Syne', sans-serif;
@@ -138,7 +138,7 @@ nav {
 }
 
 .projet-card {
-background-color: #13131a;
+background-color: #241420;
 padding: 5rem 4rem;
 border-radius: 3rem;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -172,10 +172,10 @@ letter-spacing: -0.02em;
 
 .tag {
   padding: 0.4rem 0.9rem;
-  background-color: rgba(168, 85, 241, 0.1) ;
-  border: 1px solid rgba(168, 85, 241, 0.3);
+  background-color: rgba(169, 169, 169, 0.1);
+  border: 1px solid rgba(169, 169, 169, 0.3);
   border-radius: 1rem;
-  color: #a855f7;
+  color: #A9A9A9  ;
   font-size: 0.8rem;
 }
 
@@ -191,13 +191,13 @@ letter-spacing: -0.02em;
 }
 
 .competences {
-  background-color: #0a0a0f;
+  background-color: #1a0e15;
   padding: 5rem 4rem;
   text-align: center;
 }
 
 .competences h2 {
-  color: #a855f7;
+  color: #5C0A28;
   font-size: 2rem;
   text-align: center;
   font-family: 'Syne', sans-serif;
@@ -218,7 +218,7 @@ letter-spacing: -0.02em;
   background-color: rgba(168, 85, 241, 0.1);
   border: 1px solid rgba(168, 85, 241, 0.3);
   border-radius: 1rem;
-  color: #b70dda;
+  color: #5C0A28;
   font-weight: bold;
   font-size: 1rem;
   text-align: left;
@@ -245,7 +245,7 @@ box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15)
 
 .skill-fill {
   height: 100%;
-  background: linear-gradient(90deg, #a855f7, #ec4899);
+  background: linear-gradient(90deg, #5C0A28, #ec4899);
   border-radius: 999px;
 }
 
@@ -254,7 +254,7 @@ box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15)
 }
 
 .contact a {
-  color: #a855f7;
+  color: #5C0A28;
   text-decoration: none;
 }
 

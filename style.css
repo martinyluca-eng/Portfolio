@@ -94,7 +94,7 @@ nav {
 }
 
 .btn:hover {
-  background-color: #9333ea;
+  background-color: #8a1840;
 }
 
 /* ABOUT */
@@ -146,7 +146,7 @@ cursor: pointer;
 }
 .projet-card:hover {
 transform: translateY(-6px);
-box-shadow: 0 20px 50px rgba(168, 85, 247, 0.2)
+box-shadow: 0 20px 50px rgba(92, 10, 40, 0.3);
 }
 
 .projet-info h3 {
@@ -215,10 +215,10 @@ letter-spacing: -0.02em;
 
 .skill {
   padding: 1.5rem;
-  background-color: rgba(168, 85, 241, 0.1);
-  border: 1px solid rgba(168, 85, 241, 0.3);
+  background-color: rgba(92, 10, 40, 0.1);
+  border: 1px solid rgba(92, 10, 40, 0.3);
   border-radius: 1rem;
-  color: #5C0A28;
+  color: #A9A9A9;
   font-weight: bold;
   font-size: 1rem;
   text-align: left;
@@ -238,7 +238,7 @@ box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15)
 
 .skill-bar {
   height: 6px;
-  background-color: rgba(168, 85, 241,0.1);
+  background-color: rgba(169, 169, 169, 0.15);
   border-radius: 999px;
   margin-top: 0.8rem;
 }
@@ -357,10 +357,10 @@ footer {
 /* ========== FIN ========== */
 
 /* ANIMATIONS */
-.reveal:ntf-child(1) { transition-delay: 0s;}
-.reveal:ntf-child(2) { transition-delay: 0.1s;}
-.reveal:ntf-child(3) { transition-delay: 0.2s;}
-.reveal:ntf-child(4) { transition-delay: 0.3s;}
+.reveal:nth-child(1) { transition-delay: 0s;}
+.reveal:nth-child(2) { transition-delay: 0.1s;}
+.reveal:nth-child(3) { transition-delay: 0.2s;}
+.reveal:nth-child(4) { transition-delay: 0.3s;}
 .reveal {
   opacity: 0;
   transform: translateY(60px);

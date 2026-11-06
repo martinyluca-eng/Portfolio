@@ -256,10 +256,17 @@ box-shadow: 0 10px 30px rgba(168, 85, 247, 0.15)
   margin-bottom: 0.8rem;
 }
 
-.skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+.skill-bar {
+  height: 6px;
+  background-color: rgba(169, 169, 169, 0.15);
+  border-radius: 999px;
+  margin-top: 0.8rem;
+}
+
+.skill-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #5C0A28, #ec4899);
+  border-radius: 999px;
 }
 
 .contact {
